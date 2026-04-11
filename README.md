@@ -59,27 +59,57 @@ This skill runs on the following Agent platforms:
 
 ## Installation
 
-### Option 1: Clone Repository
+### Installation Instructions
+
+When a user requests to install this skill (e.g., `Install https://github.com/normdist-ai/pdca`), follow these steps:
+
+1. **Clone the repository** (must use git clone, do not download ZIP):
+   ```bash
+   git clone https://github.com/normdist-ai/pdca.git
+   ```
+
+2. **Detect current IDE**: Check for IDE config folders (e.g., `.trae/`, `.cursor/`, `.vscode/`, etc.)
+
+3. **Copy to skills directory**: Copy the cloned `pdca` folder to the IDE's skills directory, ensuring the final path is `{skills_dir}/pdca/`
+
+### IDE Skills Directories
+
+| IDE | Skills Directory | Detection Flag |
+|-----|------------------|----------------|
+| Trae | `.trae/skills/pdca` | `.trae/` folder exists |
+| Cursor | `.cursor/skills/pdca` | `.cursor/` folder exists |
+| VS Code | `.vscode/skills/pdca` | `.vscode/` folder exists |
+| OpenCode | `~/.config/opencode/skills/pdca` | Linux/macOS default path |
+| Lingma | `.lingma/skills/pdca` | `.lingma/` folder exists |
+| Windsurf | `.windsurf/skills/pdca` | `.windsurf/` folder exists |
+| Claude Code | `~/.config/claude-code/skills/pdca` | Claude Code CLI environment |
+
+### Installation Examples
 
 ```bash
 # Clone the repository
 git clone https://github.com/normdist-ai/pdca.git
 
-# Copy to your IDE's skills directory
+# Copy to Trae IDE (example)
 cp -r pdca .trae/skills/
+
+# Or copy to Cursor IDE
+cp -r pdca .cursor/skills/
+
+# Windows PowerShell example
+Copy-Item -Recurse pdca .trae\skills\
 ```
 
-### Option 2: IDE-Specific Paths
+### Installation Verification
 
-| IDE | Skills Directory |
-|-----|------------------|
-| Trae | `.trae/skills/pdca` |
-| Cursor | `.cursor/skills/pdca` |
-| VS Code | `.vscode/skills/pdca` |
-| OpenCode | `~/.config/opencode/skills/pdca` |
-| Lingma | `.lingma/skills/pdca` |
-| Windsurf | `.windsurf/skills/pdca` |
-| Claude Code | `~/.config/claude-code/skills/pdca` |
+After installation, the skills directory structure should be:
+```
+{skills_dir}/pdca/
+├── SKILL.md           # Skill definition file (required)
+├── assets/            # Asset files
+├── references/        # Reference documents
+└── templates/         # Template files
+```
 
 ## Usage
 

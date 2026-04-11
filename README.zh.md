@@ -59,27 +59,57 @@
 
 ## 安装
 
-### 方式一：克隆仓库
+### 安装指令
+
+当用户请求安装此技能时（如：`安装 https://github.com/normdist-ai/pdca`），请按以下步骤执行：
+
+1. **克隆仓库**（必须使用 git clone，不要下载 ZIP）：
+   ```bash
+   git clone https://github.com/normdist-ai/pdca.git
+   ```
+
+2. **检测当前 IDE**：根据项目目录中存在的配置文件夹判断（如 `.trae/`、`.cursor/`、`.vscode/` 等）
+
+3. **复制到对应 skills 目录**：将克隆的 `pdca` 文件夹复制到 IDE 的 skills 目录下，确保最终路径为 `{skills_dir}/pdca/`
+
+### 各 IDE Skills 目录
+
+| IDE | Skills 目录 | 检测标志 |
+|------|-------------|----------|
+| Trae | `.trae/skills/pdca` | 存在 `.trae/` 文件夹 |
+| Cursor | `.cursor/skills/pdca` | 存在 `.cursor/` 文件夹 |
+| VS Code | `.vscode/skills/pdca` | 存在 `.vscode/` 文件夹 |
+| OpenCode | `~/.config/opencode/skills/pdca` | Linux/macOS 默认路径 |
+| Lingma | `.lingma/skills/pdca` | 存在 `.lingma/` 文件夹 |
+| Windsurf | `.windsurf/skills/pdca` | 存在 `.windsurf/` 文件夹 |
+| Claude Code | `~/.config/claude-code/skills/pdca` | Claude Code CLI 环境 |
+
+### 安装示例
 
 ```bash
 # 克隆仓库
 git clone https://github.com/normdist-ai/pdca.git
 
-# 复制到对应 IDE 的 skills 目录
+# 复制到 Trae IDE（示例）
 cp -r pdca .trae/skills/
+
+# 或复制到 Cursor IDE
+cp -r pdca .cursor/skills/
+
+# Windows PowerShell 示例
+Copy-Item -Recurse pdca .trae\skills\
 ```
 
-### 方式二：各 IDE 安装路径
+### 安装验证
 
-| IDE | Skills 目录 |
-|------|-------------|
-| Trae | `.trae/skills/pdca` |
-| Cursor | `.cursor/skills/pdca` |
-| VS Code | `.vscode/skills/pdca` |
-| OpenCode | `~/.config/opencode/skills/pdca` |
-| Lingma | `.lingma/skills/pdca` |
-| Windsurf | `.windsurf/skills/pdca` |
-| Claude Code | `~/.config/claude-code/skills/pdca` |
+安装完成后，skills 目录结构应为：
+```
+{skills_dir}/pdca/
+├── SKILL.md           # 技能定义文件（必需）
+├── assets/            # 资产文件
+├── references/        # 参考文档
+└── templates/         # 模板文件
+```
 
 ## 使用方法
 
