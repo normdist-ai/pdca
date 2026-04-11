@@ -5,7 +5,7 @@ license: CC BY-NC-SA 4.0
 compatibility: 适用于支持AgentSkills规范的AI代理
 metadata:
   author: 小翠
-  version: "2.1"
+  version: "2.2"
   spec: https://agentskills.io/specification
 ---
 
@@ -96,30 +96,50 @@ graph TB
 
 ### 工作目录管理
 
-PDCA技能运行时，会在项目根目录创建`.pdca/`文件夹，用于存储PDCA运行过程产生的文件。
+PDCA技能运行时，会在项目根目录创建`.pdca/`文件夹，用于存储PDCA运行过程产生的**输出文件**。
 
 #### 目录结构
+
+**输出目录（.pdca/）**：
 
 ```
 项目根目录/
 └── .pdca/
     ├── issue-list.md          # 问题索引列表
-    ├── issues/                # 问题文件夹
-    │   ├── is-20260409-143000/  # 问题1
-    │   │   ├── README.md      # 问题概述
-    │   │   ├── plan/          # Plan阶段文件
-    │   │   ├── do/            # Do阶段文件
-    │   │   ├── check/         # Check阶段文件
-    │   │   └── act/           # Act阶段文件
-    │   └── is-20260409-150000/  # 问题2
-    │       └── ...
-    └── templates/             # 模板文件夹
-        ├── issue-template.md
-        ├── plan-template.md
-        ├── do-template.md
-        ├── check-template.md
-        └── act-template.md
+    └── issues/                # 问题文件夹
+        ├── is-20260409-143000/  # 问题1
+        │   ├── README.md      # 问题概述
+        │   ├── plan/          # Plan阶段文件
+        │   ├── do/            # Do阶段文件
+        │   ├── check/         # Check阶段文件
+        │   └── act/           # Act阶段文件
+        └── is-20260409-150000/  # 问题2
+            └── ...
 ```
+
+**过程规范目录（.trae/skills/pdca/）**：
+
+```
+.trae/skills/pdca/
+├── templates/                 # 模板文件夹（过程规范）
+│   ├── issue-template.md      # 问题概述模板
+│   ├── plan-template.md       # Plan阶段模板
+│   ├── do-template.md         # Do阶段模板
+│   ├── check-template.md      # Check阶段模板
+│   └── act-template.md        # Act阶段模板
+├── references/                # 参考文档
+└── assets/                    # 资产文件
+```
+
+#### SIPOC分析
+
+| 供方 (Supplier) | 输入 (Input) | 过程 (Process) | 输出 (Output) | 顾客 (Customer) |
+|----------------|--------------|----------------|---------------|----------------|
+| PDCA技能 | 用户需求 | PDCA方法论（含模板） | `.pdca/`文件夹中的过程文件 | 用户 |
+
+**说明**：
+- **过程规范**（模板文件）：位于`.trae/skills/pdca/templates/`
+- **输出文件**（过程文件）：位于`.pdca/`文件夹中
 
 #### 文件命名规范
 
