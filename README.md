@@ -1,5 +1,11 @@
 # PDCA Skill
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Skill Type](https://img.shields.io/badge/Type-SKILL-blue.svg)](https://agentskills.io)
+[![Version](https://img.shields.io/badge/Version-2.7.1-green.svg)](https://github.com/normdist-ai/pdca)
+
+[中文文档](README.zh.md)
+
 A PDCA cycle methodology skill based on ISO9000 standards, guiding agents to work systematically through Plan, Do, Check, and Act phases to help users achieve continuous improvement.
 
 ## Overview

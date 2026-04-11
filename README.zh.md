@@ -1,5 +1,11 @@
 # PDCA 技能
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Skill Type](https://img.shields.io/badge/Type-SKILL-blue.svg)](https://agentskills.io)
+[![Version](https://img.shields.io/badge/Version-2.7.1-green.svg)](https://github.com/normdist-ai/pdca)
+
+[English Documentation](README.md)
+
 基于ISO9000标准的PDCA循环方法论技能，指导代理按照策划、实施、检查、处置四个阶段系统化开展工作，帮助用户实现持续改进。
 
 ## 概述
@@ -142,7 +148,7 @@ pdca/
 
 ## 四阶段方法论
 
-| 阶段 | 英文 | 核心目标 | 关键活动 | 主要输出 |
+| 阶段 | 中文名称 | 核心目标 | 关键活动 | 主要输出 |
 |------|------|----------|----------|----------|
 | **Plan** | 策划 | 建立目标和过程 | SMART目标设定、WBS分解、SIPOC分析 | 目标说明书、WBS、流程图 |
 | **Do** | 实施 | 执行策划方案 | 任务执行、进度跟踪、文档管理 | 执行记录、进度报告、问题清单 |
