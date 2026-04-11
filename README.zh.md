@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Skill Type](https://img.shields.io/badge/Type-SKILL-blue.svg)](https://agentskills.io)
-[![Version](https://img.shields.io/badge/Version-2.7.1-green.svg)](https://github.com/normdist-ai/pdca)
+[![Version](https://img.shields.io/badge/Version-2.7.2-green.svg)](https://github.com/normdist-ai/pdca)
 
 [English Documentation](README.md)
 
@@ -203,6 +203,8 @@ pdca/
 
 | 版本 | 日期 | 主要更新 |
 |------|------|----------|
+| 2.7.2 | 2026-04-11 | 添加版本发布检查清单、优化安装说明、修复SKILL.md版本号同步 |
+| 2.7.1 | 2026-04-11 | 修复版本徽章链接、从仓库中移除.qoder和.trae文件夹 |
 | 2.7.0 | 2026-04-11 | 模板分工明确化、参考文档添加按需加载触发条件、术语表核实 |
 | 2.6.0 | 2026-04-11 | 修复审查问题：数据一致性、Mermaid规范、.gitignore完善、内容去重、目录结构统一 |
 | 2.5.0 | 2026-04-11 | 添加.pdca/输出目录说明文件，补充跨平台时间获取命令 |
