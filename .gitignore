@@ -36,6 +36,12 @@ env/
 .DS_Store
 Thumbs.db
 
+# PDCA技能运行时输出
+.pdca/
+
+# VOC技能运行时输出
+.voc/
+
 # Logs
 *.log
 logs/
