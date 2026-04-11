@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Skill Type](https://img.shields.io/badge/Type-SKILL-blue.svg)](https://agentskills.io)
-[![Version](https://img.shields.io/badge/Version-2.7.2-green.svg)](https://github.com/normdist-ai/pdca)
+[![Version](https://img.shields.io/badge/Version-2.7.3-green.svg)](https://github.com/normdist-ai/pdca)
 
 [English Documentation](README.md)
 
@@ -203,6 +203,7 @@ pdca/
 
 | 版本 | 日期 | 主要更新 |
 |------|------|----------|
+| 2.7.3 | 2026-04-11 | SKILL.md新增.pdca/目录初始化步骤和README.md内容规范 |
 | 2.7.2 | 2026-04-11 | 添加版本发布检查清单、优化安装说明、修复SKILL.md版本号同步 |
 | 2.7.1 | 2026-04-11 | 修复版本徽章链接、从仓库中移除.qoder和.trae文件夹 |
 | 2.7.0 | 2026-04-11 | 模板分工明确化、参考文档添加按需加载触发条件、术语表核实 |

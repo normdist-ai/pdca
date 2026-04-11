@@ -35,6 +35,7 @@ env/
 # IDE Skills directories (local installation only)
 .qoder/
 .trae/
+.lingma/
 
 # OS
 .DS_Store
