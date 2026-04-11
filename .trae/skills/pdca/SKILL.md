@@ -5,7 +5,7 @@ license: CC BY-NC-SA 4.0
 compatibility: 适用于支持AgentSkills规范的AI代理
 metadata:
   author: 小翠
-  version: "2.0"
+  version: "2.1"
   spec: https://agentskills.io/specification
 ---
 
@@ -93,6 +93,63 @@ graph TB
     ↑                                                        ↓
     ←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←
 ```
+
+### 工作目录管理
+
+PDCA技能运行时，会在项目根目录创建`.pdca/`文件夹，用于存储PDCA运行过程产生的文件。
+
+#### 目录结构
+
+```
+项目根目录/
+└── .pdca/
+    ├── issue-list.md          # 问题索引列表
+    ├── issues/                # 问题文件夹
+    │   ├── is-20260409-143000/  # 问题1
+    │   │   ├── README.md      # 问题概述
+    │   │   ├── plan/          # Plan阶段文件
+    │   │   ├── do/            # Do阶段文件
+    │   │   ├── check/         # Check阶段文件
+    │   │   └── act/           # Act阶段文件
+    │   └── is-20260409-150000/  # 问题2
+    │       └── ...
+    └── templates/             # 模板文件夹
+        ├── issue-template.md
+        ├── plan-template.md
+        ├── do-template.md
+        ├── check-template.md
+        └── act-template.md
+```
+
+#### 文件命名规范
+
+**问题文件夹命名**：`is-yyyyMMdd-HHmmss`
+- `is`：Issue（问题）的缩写
+- `yyyyMMdd`：日期（年月日）
+- `HHmmss`：时间（时分秒）
+- 示例：`is-20260409-143000`
+
+**过程文件命名**：
+- Plan阶段：`plan-YYYYMMDD-HHMMSS.md`
+- Do阶段：`do-YYYYMMDD-HHMMSS.md`
+- Check阶段：`check-YYYYMMDD-HHMMSS.md`
+- Act阶段：`act-YYYYMMDD-HHMMSS.md`
+
+#### 问题索引列表
+
+`issue-list.md`文件以表格形式记录所有问题：
+
+| 问题ID | 问题描述 | 创建时间 | 状态 | 优先级 | 文件夹路径 |
+|--------|----------|----------|------|--------|-----------|
+| IS-001 | 问题描述 | 2026-04-09 14:30:00 | 进行中 | 高 | [is-20260409-143000](./issues/is-20260409-143000/) |
+
+#### 使用流程
+
+1. **创建问题文件夹**：当用户提出新问题时，创建`is-yyyyMMdd-HHmmss/`文件夹
+2. **创建问题概述**：在问题文件夹中创建`README.md`，记录问题基本信息
+3. **创建PDCA过程文件**：在相应阶段文件夹中创建过程文件
+4. **更新问题索引**：在`issue-list.md`中添加或更新问题记录
+5. **更新问题状态**：随着PDCA循环进展，及时更新问题状态
 
 ## 核心方法论
 
