@@ -32,6 +32,10 @@ env/
 *.swo
 *~
 
+# IDE Skills directories (local installation only)
+.qoder/
+.trae/
+
 # OS
 .DS_Store
 Thumbs.db
