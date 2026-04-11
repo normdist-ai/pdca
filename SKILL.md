@@ -5,7 +5,7 @@ license: CC BY-NC-SA 4.0
 compatibility: 适用于支持AgentSkills规范的AI代理
 metadata:
   author: 小翠
-  version: "2.7.3"
+  version: "1.7.4"
   spec: https://agentskills.io/specification
 ---
 

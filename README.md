@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Skill Type](https://img.shields.io/badge/Type-SKILL-blue.svg)](https://agentskills.io)
-[![Version](https://img.shields.io/badge/Version-2.7.3-green.svg)](https://github.com/normdist-ai/pdca)
+[![Version](https://img.shields.io/badge/Version-1.7.4-green.svg)](https://github.com/normdist-ai/pdca)
 
 [中文文档](README.zh.md)
 
@@ -203,17 +203,18 @@ pdca/
 
 | Version | Date | Major Updates |
 |---------|------|---------------|
-| 2.7.3 | 2026-04-11 | Added .pdca/ directory initialization step and README.md content specification to SKILL.md |
-| 2.7.2 | 2026-04-11 | Added version release checklist, optimized installation instructions, fixed SKILL.md version sync |
-| 2.7.1 | 2026-04-11 | Fixed version badge link, removed .qoder and .trae from repository |
-| 2.7.0 | 2026-04-11 | Clarified template division, added on-demand loading triggers for reference docs, verified glossary |
-| 2.6.0 | 2026-04-11 | Fixed review issues: data consistency, Mermaid compliance, .gitignore improvements, content deduplication, unified directory structure |
-| 2.5.0 | 2026-04-11 | Added .pdca/ output directory README, added cross-platform time retrieval commands |
-| 2.4.0 | 2026-04-11 | Optimized issue numbering: is -> issue |
-| 2.3.0 | 2026-04-11 | Restructured output directory, created issues folder |
-| 2.2.0 | 2026-04-10 | Optimized template file locations based on SIPOC analysis |
-| 2.1.0 | 2026-04-09 | Added templates, checklists, metrics, FAQ |
-| 2.0.0 | 2026-04-09 | Compliant with AgentSkills specification, added bilingual glossary |
+| 1.7.4 | 2026-04-11 | Corrected version numbering convention (2.x.x -> 1.x.x) |
+| 1.7.3 | 2026-04-11 | Added .pdca/ directory initialization step and README.md content specification to SKILL.md |
+| 1.7.2 | 2026-04-11 | Added version release checklist, optimized installation instructions, fixed SKILL.md version sync |
+| 1.7.1 | 2026-04-11 | Fixed version badge link, removed .qoder and .trae from repository |
+| 1.7.0 | 2026-04-11 | Clarified template division, added on-demand loading triggers for reference docs, verified glossary |
+| 1.6.0 | 2026-04-11 | Fixed review issues: data consistency, Mermaid compliance, .gitignore improvements, content deduplication, unified directory structure |
+| 1.5.0 | 2026-04-11 | Added .pdca/ output directory README, added cross-platform time retrieval commands |
+| 1.4.0 | 2026-04-11 | Optimized issue numbering: is -> issue |
+| 1.3.0 | 2026-04-11 | Restructured output directory, created issues folder |
+| 1.2.0 | 2026-04-10 | Optimized template file locations based on SIPOC analysis |
+| 1.1.0 | 2026-04-09 | Added templates, checklists, metrics, FAQ |
+| 1.0.1 | 2026-04-09 | Compliant with AgentSkills specification, added bilingual glossary |
 | 1.0.0 | 2026-04-09 | Initial version |
 
 ## References

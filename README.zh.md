@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Skill Type](https://img.shields.io/badge/Type-SKILL-blue.svg)](https://agentskills.io)
-[![Version](https://img.shields.io/badge/Version-2.7.3-green.svg)](https://github.com/normdist-ai/pdca)
+[![Version](https://img.shields.io/badge/Version-1.7.4-green.svg)](https://github.com/normdist-ai/pdca)
 
 [English Documentation](README.md)
 
@@ -203,17 +203,18 @@ pdca/
 
 | 版本 | 日期 | 主要更新 |
 |------|------|----------|
-| 2.7.3 | 2026-04-11 | SKILL.md新增.pdca/目录初始化步骤和README.md内容规范 |
-| 2.7.2 | 2026-04-11 | 添加版本发布检查清单、优化安装说明、修复SKILL.md版本号同步 |
-| 2.7.1 | 2026-04-11 | 修复版本徽章链接、从仓库中移除.qoder和.trae文件夹 |
-| 2.7.0 | 2026-04-11 | 模板分工明确化、参考文档添加按需加载触发条件、术语表核实 |
-| 2.6.0 | 2026-04-11 | 修复审查问题：数据一致性、Mermaid规范、.gitignore完善、内容去重、目录结构统一 |
-| 2.5.0 | 2026-04-11 | 添加.pdca/输出目录说明文件，补充跨平台时间获取命令 |
-| 2.4.0 | 2026-04-11 | 优化问题编号规则：is -> issue |
-| 2.3.0 | 2026-04-11 | 重构输出目录结构，创建issues文件夹 |
-| 2.2.0 | 2026-04-10 | 基于SIPOC分析优化模板文件位置 |
-| 2.1.0 | 2026-04-09 | 添加模板、检查清单、度量指标、FAQ |
-| 2.0.0 | 2026-04-09 | 符合AgentSkills规范，添加中英文术语表 |
+| 1.7.4 | 2026-04-11 | 更正版本号变更规则（2.x.x -> 1.x.x） |
+| 1.7.3 | 2026-04-11 | SKILL.md新增.pdca/目录初始化步骤和README.md内容规范 |
+| 1.7.2 | 2026-04-11 | 添加版本发布检查清单、优化安装说明、修复SKILL.md版本号同步 |
+| 1.7.1 | 2026-04-11 | 修复版本徽章链接、从仓库中移除.qoder和.trae文件夹 |
+| 1.7.0 | 2026-04-11 | 模板分工明确化、参考文档添加按需加载触发条件、术语表核实 |
+| 1.6.0 | 2026-04-11 | 修复审查问题：数据一致性、Mermaid规范、.gitignore完善、内容去重、目录结构统一 |
+| 1.5.0 | 2026-04-11 | 添加.pdca/输出目录说明文件，补充跨平台时间获取命令 |
+| 1.4.0 | 2026-04-11 | 优化问题编号规则：is -> issue |
+| 1.3.0 | 2026-04-11 | 重构输出目录结构，创建issues文件夹 |
+| 1.2.0 | 2026-04-10 | 基于SIPOC分析优化模板文件位置 |
+| 1.1.0 | 2026-04-09 | 添加模板、检查清单、度量指标、FAQ |
+| 1.0.1 | 2026-04-09 | 符合AgentSkills规范，添加中英文术语表 |
 | 1.0.0 | 2026-04-09 | 初始版本 |
 
 ## 参考资料
