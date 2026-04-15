@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Skill Type](https://img.shields.io/badge/Type-SKILL-blue.svg)](https://agentskills.io)
-[![Version](https://img.shields.io/badge/Version-1.7.4-green.svg)](https://github.com/normdist-ai/pdca)
+[![Version](https://img.shields.io/badge/Version-1.7.6-green.svg)](https://github.com/normdist-ai/pdca)
 
 [中文文档](README.zh.md)
 
@@ -203,8 +203,9 @@ pdca/
 
 | Version | Date | Major Updates |
 |---------|------|---------------|
-| 1.7.4 | 2026-04-11 | Corrected version numbering convention (2.x.x -> 1.x.x) |
-| 1.7.3 | 2026-04-11 | Added .pdca/ directory initialization step and README.md content specification to SKILL.md |
+| 1.7.6 | 2026-04-15 | Optimized SKILL.md structure, streamlined core content, enhanced navigation and interaction guidance |
+| 1.7.5 | 2026-04-11 | Corrected version numbering convention (2.x.x -> 1.x.x) |
+| 1.7.4 | 2026-04-11 | Added .pdca/ directory initialization step and README.md content specification to SKILL.md |
 | 1.7.2 | 2026-04-11 | Added version release checklist, optimized installation instructions, fixed SKILL.md version sync |
 | 1.7.1 | 2026-04-11 | Fixed version badge link, removed .qoder and .trae from repository |
 | 1.7.0 | 2026-04-11 | Clarified template division, added on-demand loading triggers for reference docs, verified glossary |
